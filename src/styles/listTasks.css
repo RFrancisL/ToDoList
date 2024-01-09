@@ -1,0 +1,118 @@
+
+.AnyTask{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.GlobalTask{
+    --main-color: #323232;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    display: flex;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+}
+
+.SingleTask{
+    margin: 20px;
+    text-decoration: none;
+}
+
+.cardTask{
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: #fff;
+    --main-color: #323232;
+    width: 200px;
+    padding: 5px;
+    background: lightgrey;
+    flex: 0 0 calc(30% - 20%);
+    gap: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+}
+
+.cardTitle {
+    color: var(--font-color);
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 25px;
+    display: flex;
+    margin-top: -30%;
+    margin-left: 20%;
+  }
+
+.cardContent{
+    color: black;
+    font-size: 20px;
+    font-family: 'Noto Sans Display', sans-serif;
+    margin-bottom: 25px;
+    margin-left: 5%;
+}
+
+.cardBtn {
+    height: 45px;
+    font-size: 30px;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    overflow: hidden;
+  }
+  .cardBtn {
+    width: 20%;
+  }
+  .cardBtn:hover {
+    background-color: rgb(237, 56, 56);
+    overflow: visible;
+  }
+
+  .cardBtn:hover {
+    fill: #fff;
+  }
+  .cardBtn:active {
+    transform: scale(0.98);
+  }
+  .cardBtn:hover{
+    opacity: 1;
+  }
+  
+  .cardEditBtn {
+    height: 45px;
+    font-size: 30px;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    overflow: hidden;
+  }
+  .cardEditBtn {
+    width: 20%;
+  }
+  .cardEditBtn:hover {
+    background-color: rgb(25, 0, 255);
+    overflow: visible;
+  }
+
+  .cardEditBtn:hover {
+    fill: #fff;
+  }
+  .cardEditBtn:active {
+    transform: scale(0.98);
+  }
+  .cardEditBtn:hover{
+    opacity: 1;
+  }

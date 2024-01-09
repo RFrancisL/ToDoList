@@ -1,0 +1,80 @@
+.title {
+  text-align: center;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+}
+
+.btn-add{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  margin-left: 80px;
+  display: flex;
+}
+
+.btn-newTask{
+  margin-top: 23px;
+  margin-right: 10px;
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: lightgray;
+  box-shadow: 4px 4px #323232;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+.footerApp {
+  background-color: #323232;
+  padding: 20px 0;
+  color: lightgray;
+  margin-top: 15%;
+  display: flex;
+}
+
+.footerTitle {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: flex-start;
+}
+
+.footerTitleD{
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 1.5em;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+.footerInfo {
+  margin-top: 15px;
+  font-family: 'Noto Sans Display', sans-serif;
+  text-align: flex-start;
+}
+
+.footerDiv{
+  margin:auto;
+}
+
+.links {
+  margin-right: 10px;
+  color: lightgray;
+  text-decoration: none;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.footeerDescription{
+  margin-top: 15px;
+  margin-right: 10%;
+  font-family: 'Noto Sans Display', sans-serif;
+  text-align: flex-end;
+}
+
+.description{
+  width: 700px;
+}
